@@ -28,6 +28,10 @@ https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-
                 }
             }
         }
+        
+        // Throttle requests to only one per second
+        self.searchTask = task
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: task)
 ```
 
 #### Better Response Management
