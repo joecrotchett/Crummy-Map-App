@@ -4,7 +4,7 @@
 
 https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-8c54-9f833eab134a.mp4
 
-#### Fully Accessible, with support for dynamic font sizing, and voice-over
+#### Fully Accessible, with support for dynamic font sizing, and legible voice-over
 
 ![Screen Shot 2021-06-22 at 4 18 10 PM](https://user-images.githubusercontent.com/32881455/123000712-89b66b00-d375-11eb-9f0a-6bad237010ac.png)
 
@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-
     }
 ```
 
-#### UX with detailed user feedback
+#### UX with helpful user feedback
 
 ![Screen Shot 2021-06-22 at 3 06 18 PM](https://user-images.githubusercontent.com/32881455/122996229-3d1c6100-d370-11eb-996b-4c4618bc8a27.png)
 ![Screen Shot 2021-06-22 at 3 06 43 PM](https://user-images.githubusercontent.com/32881455/122996231-3db4f780-d370-11eb-9be8-5f20d07a9bcd.png)
