@@ -129,9 +129,9 @@ extension SearchViewController: UISearchResultsUpdating {
         self.searchTask?.cancel()
         let task = DispatchWorkItem { [weak self] in
             self?.dataManager.search(for: term) { result in
+                let vc = searchController.searchResultsController as? SearchResultsViewController
                 switch result {
                 case .success(let searchResults):
-                    let vc = searchController.searchResultsController as? SearchResultsViewController
                     if searchResults.isEmpty {
                         vc?.showNoResults()
                     } else {
@@ -139,7 +139,6 @@ extension SearchViewController: UISearchResultsUpdating {
                     }
 
                 case .failure(let error):
-                    let vc = searchController.searchResultsController as? SearchResultsViewController
                     vc?.show(error: error.localizedDescription)
                 }
             }
