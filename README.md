@@ -14,9 +14,9 @@ https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-
         self.searchTask?.cancel()
         let task = DispatchWorkItem { [weak self] in
             self?.dataManager.search(for: term) { result in
+                let vc = searchController.searchResultsController as? SearchResultsViewController
                 switch result {
                 case .success(let searchResults):
-                    let vc = searchController.searchResultsController as? SearchResultsViewController
                     if searchResults.isEmpty {
                         vc?.showNoResults()
                     } else {
@@ -24,15 +24,10 @@ https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-
                     }
 
                 case .failure(let error):
-                    let vc = searchController.searchResultsController as? SearchResultsViewController
                     vc?.show(error: error.localizedDescription)
                 }
             }
         }
-        
-        // Throttle requests to only one per second
-        self.searchTask = task
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: task)
 ```
 
 #### Better Response Management
