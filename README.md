@@ -4,12 +4,6 @@
 
 https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-8c54-9f833eab134a.mp4
 
-### Features
-
-#### No third-party libraries or dependencies
-
-#### Clean, documented, loosely-coupled, and highly-maintainable code
-
 #### Fully Accessible, with support for dynamic font sizing, and voice-over
 
 ![Screen Shot 2021-06-22 at 4 18 10 PM](https://user-images.githubusercontent.com/32881455/123000712-89b66b00-d375-11eb-9f0a-6bad237010ac.png)
