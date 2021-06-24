@@ -9,7 +9,7 @@ import UIKit
 
 // MARK: SearchResultsViewControllerDelegate
 
-protocol SearchResultsViewControllerDelegate: class {
+protocol SearchResultsViewControllerDelegate: AnyObject {
     func searchResultsViewController(_ viewController: SearchResultsViewController, didSelectSearchResult searchResult: Place)
 }
 
