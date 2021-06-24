@@ -56,6 +56,7 @@ final class SearchViewController: NiblessViewController {
     }
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         configureSearchController()
         updateColors()
     }
