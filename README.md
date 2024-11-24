@@ -1,5 +1,7 @@
 # Crummy-Map-App
 
+Demonstrates how to build a fully-accesible iOS app with Swift 5
+
 ### Demo Video
 
 https://user-images.githubusercontent.com/32881455/122994693-545a4f00-d36e-11eb-8c54-9f833eab134a.mp4
